@@ -1,0 +1,138 @@
+/* This is for Login Page only */
+.loginPage {
+    width: 100%;
+    height: 100%;
+    background-color: #044368c4;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.LoginPageLeft{
+    text-align: right;
+    padding-right: 20px;
+}
+.LoginPageLeft>h1{
+    font-size: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35%;
+}
+.LoginPageLeft>img{
+    width: 300px;
+}
+.LoginPageRights{
+    padding: 10px;
+    margin-top: 4%;
+    background-color: white;
+    border-radius: 20px;
+}
+.LoginPageRights>form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+.LoginFormTitle{
+    color: #044c75c4;
+}
+.LoginBtn{
+    background-color: #055685;
+    color: white;
+    margin-bottom: 8px;
+}
+.LoginBtn:hover{
+    transition: 0.5s;
+    background-color: #044368;
+}
+.Loginforgotpw{
+    font-size: 16px;
+    text-align: right;
+    cursor: pointer;
+    color: rgb(109, 109, 109);
+}
+.Loginforgotpw:hover{
+    transition: 0.5s;
+    color: rgb(46, 46, 46);
+}
+.Loginnotmember{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center; 
+}
+.backgreoundshapes{
+    position: absolute;
+    z-index: 0;
+    background-color: #fafafa0c;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#backgreoundshapes {
+    border-radius: 100%;
+    left: -100PX;
+    top: -100PX;
+    width: 300px;
+    height: 300px;
+}
+#backgreoundshapes1 {
+    border-radius: 80%;
+    top: -30px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+
+}
+#backgreoundshapes2 {
+    border-radius: 70%;
+    right: 600PX;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+#backgreoundshapes3 {
+    border-radius: 60%;
+    bottom: -10px;
+    right: 800PX;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+#backgreoundshapes4 {
+    border-radius: 90%;
+    top: 350PX;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+    .loginPage {
+        padding-bottom: 100px;
+    }
+    .LoginPageLeft{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .LoginPageLeft>h1{
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    .LoginPageLeft>img{
+        width: 200px;
+        margin-bottom: 5%;
+    }
+    .LoginPageRights{
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .LoginPageRights>form{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 20px;
+    }
+
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eStudiez</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/Login.css">
+    <!-- Style Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <script src="Script/firebase/firebaseconfig.js" type="module"></script>
+    <link rel="stylesheet" href="CSS/Stylesheet.css">
+    <script src="Script/script.js"></script>
+
+</head>
+<body>
+    <div class="loginPage">
+        <div id="backgreoundshapes" class="backgreoundshapes"></div>
+        <div id="backgreoundshapes1" class="backgreoundshapes"></div>
+        <div id="backgreoundshapes2" class="backgreoundshapes"></div>
+        <div id="backgreoundshapes3" class="backgreoundshapes"></div>
+        <div id="backgreoundshapes4" class="backgreoundshapes"></div>
+
+        <div class="container loginPageBody">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12 LoginPageLeft">
+                    <h1>Welcome To</h1>
+                    <img src="Assets/Logo/Logo.png" alt="">
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 LoginPageRights">
+                    <form>
+                        <h1 class=" LoginFormTitle pb-4">Login</h1>
+                        <div class="form-outline mb-4">
+                            <label class="form-label">Username</label>
+                            <input type="text" id="email" class="form-control" required>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label">Password</label>
+                            <input type="password" id="password" class="form-control" required>
+                        </div>
+                        <button type="button" id="loginBtn" class="btn btn-block LoginBtn">
+                            Login
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script/firebase/login.js" type="module"></script>
+</body>
+</html>
